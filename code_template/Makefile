@@ -47,7 +47,7 @@ cover:
 
 
 lint: env/.requirements
-	env/bin/flake8 --max-line-length=100 code_template tests
+	env/bin/flake8 --max-line-length=100 sorting tests
 
 cover_tests: env/.requirements
 	env/bin/py.test -s --tb short --cov-config .coveragerc --cov sorting --cov-report term-missing --cov-report xml \
