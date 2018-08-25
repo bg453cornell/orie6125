@@ -15,4 +15,3 @@ counts = pairs.reduceByKey(lambda n1, n2: n1 + n2)
 
 counts.saveAsTextFile(sys.argv[2])
 sc.stop()
-
